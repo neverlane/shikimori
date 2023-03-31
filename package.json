@@ -12,7 +12,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "docs": "typedoc --out docs src/index.ts --gitRevision master"
+    "docs": "typedoc --out docs src/index.ts --gitRevision nemiga"
   },
   "homepage": "https://github.com/neverlane/shikimori",
   "repository": {
