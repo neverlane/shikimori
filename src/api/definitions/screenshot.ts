@@ -1,0 +1,1 @@
+export type Screenshot = Record<'original' | 'preview', string>;
