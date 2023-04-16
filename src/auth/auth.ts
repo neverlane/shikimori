@@ -39,7 +39,7 @@ export class Auth {
     });
   }
 
-  async refreshToken(refreshToken: string) {
+  async refreshToken(refreshToken: string): Promise<UserToken> {
     const params = new URLSearchParams();
     params.append('grant_type', 'refresh_token');
     params.append('client_id', this.options.clientId);
