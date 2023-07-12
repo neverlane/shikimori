@@ -1,5 +1,5 @@
 import { APISchema } from '~/api/schema';
-import { Role, Franchise, ExternalLink, Manga, MangaKind, MangaRelation, MangaShort, MangaStatus, MangaTopic } from '~/api/definitions';
+import { Role, Franchise, ExternalLink, Manga, MangaRelation, MangaShort, MangaStatus, MangaTopic } from '~/api/definitions';
 import { ShikimoriOrder, ShikimoriParameter, ShikimoriMyListStatus } from '~/utils/types';
 
 export interface RanobeGetParams {
