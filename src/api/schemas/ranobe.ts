@@ -6,7 +6,6 @@ export interface RanobeGetParams {
   page?: number;
   limit?: number;
   order?: ShikimoriOrder;
-  kind?: MangaKind;
   status?: MangaStatus;
   season?: ShikimoriParameter;
   score?: number;
