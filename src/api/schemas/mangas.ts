@@ -6,7 +6,7 @@ export interface MangasGetParams {
   page?: number;
   limit?: number;
   order?: ShikimoriOrder;
-  kind?: MangaKind;
+  kind?: ShikimoriParameter<MangaKind>;
   status?: MangaStatus;
   season?: ShikimoriParameter;
   score?: number;

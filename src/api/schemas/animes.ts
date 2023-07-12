@@ -18,7 +18,7 @@ export interface AnimesGetParams {
   page?: number;
   limit?: number;
   order?: ShikimoriOrder;
-  kind?: AnimeKind;
+  kind?: ShikimoriParameter<AnimeKind>;
   status?: AnimeStatus;
   season?: ShikimoriParameter;
   score?: number;
