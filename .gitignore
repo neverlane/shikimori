@@ -1,8 +1,5 @@
+.idea
 node_modules
 /dist
 shiki-methods.json
 /dev
-
-pnpm-lock.yaml
-yarn.lock
-package-lock.json

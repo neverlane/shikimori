@@ -1,14 +1,13 @@
 <p align="center">
-  <!-- <img src="https://raw.githubusercontent.com/neverlane/shikimori/master/.github/shikimori.png" alt="..."> -->
-  <img src="./.github/shikimori.png" alt="...">
+  <img src="https://raw.githubusercontent.com/neverlane/shikimori/master/.github/shikimori.png" alt="...">
 </p>
 <p align="center">
   <b>shikimori</b>
 </p>
 <p align="center">Modern ES6 Promise based API client for <a href="https://shikimori.one/" target="_blank">shikimori</a></p>
 
-| 📖 [Documentation](https://neverlane.github.io/shikimori/index.html) |
-| ------------------------------------------------------------------------- |
+| 📖 [TSDocs](https://tsdocs.dev/search/docs/shikimori) |
+|-------------------------------------------------------|
 
 <p align="center">
  <a href="https://npmjs.com/package/shikimori">
