@@ -1,15 +1,20 @@
 {
   "name": "shikimori",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Modern ES6 Promise based API client for shikimori.one",
-  "main": "./dist/index.js",
+  "type": "commonjs",
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
     }
   },
-  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts"
   },
